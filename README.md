@@ -21,7 +21,7 @@ Add the following:
 ```
 (
  export LD_LIBRARY_PATH=$LD_LIBARY_PATH:/storage/squeezelite-arm64/lib
- /storage/squeezelite-arm64/bin/squeezelite -a 160:::0 -r 192000 -C 1 -n $(hostname)
+ /storage/squeezelite-arm64/bin/squeezelite -a 160:::0 -C 1 -n $(hostname)
 ) &
 ```
 Press CTRL+o to save and CTRL+x to quit the text editor. Reboot LibreELEC and you should see the hostname available as player in Logitech Media Server.
