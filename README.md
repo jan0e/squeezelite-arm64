@@ -24,4 +24,4 @@ Add the following:
  /storage/squeezelite-arm64/bin/squeezelite -a 160:::0 -r 192000 -C 1 -n $(hostname)
 ) &
 ```
-Press CTRL+O to save and CTRL+x to quit the text editor. Reboot LibreELEC and you should see the hostname available as player in Logitech Media Server.
+Press CTRL+o to save and CTRL+x to quit the text editor. Reboot LibreELEC and you should see the hostname available as player in Logitech Media Server.
